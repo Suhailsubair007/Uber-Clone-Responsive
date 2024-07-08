@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBER</title>
+
+    <link rel="stylesheet" href="taskuber.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/fc2e75786e.js' crossorigin='anonymous'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container bg-black text-white p-2">
+                <a class="navbar-brand text-white" href="#">
+                    <h3>Uber</h3>
+                </a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Ride</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Drive</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Business</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">About Us</a></li>
+                                <li><a class="dropdown-item" href="#">How Uber Works</a></li>
+                                <li><a class="dropdown-item" href="#">Impact</a></li>
+                                <li><a class="dropdown-item" href="#">Our Offerings</a></li>
+                                <li><a class="dropdown-item" href="#">NewsRoom</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <ul class="nav ">
+                        <li class="nav-item globe pt-1">
+                            <a><i class="bi bi-globe "></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">EN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Login</a>
+                        </li>
+
+                        <li>
+
+                            <a><button class="btn btn-light text-dark btn-sm mt-2 button1 inline"
+                                    type="submit">SignUp</button>
+                        </li></a>
+                    </ul>
+                </div>
+
+            </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <div class="section1 bg-black text-white ">
+        <div class="container bg-black text-white mt-0 pt-0">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 pt-5 bg-black">
+                    <h1 class="mt-5" style="font-size: 50px; font-weight: 700; font-family: sans-serif">Go anywhere with
+                        Uber</h1>
+                    <p class="text-white" style="font-size: 1.2rem; margin-bottom: 20px;">Request a ride, hop in, and
+                        go.</p>
+                    <form>
+                        <div class="input-group mb-3 w-75 rounded bg-white">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text ">&#128903;</span>
+                            </div>
+                            <input type="text" class="form-control rounded" placeholder="Enter Location">
+                            <div class="input-group-append ">
+                                <span class="input-group-text " style="font-size:23px;"><i
+                                        class='fas fa-location-arrow'></i></span>
+                            </div>
+                        </div>
+                        <div class="input-group mb-3 w-75 rounded bg-white">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">&#128913;</span>
+                            </div>
+                            <input type="text" class="form-control rounded" placeholder="Enter Destination">
+                        </div>
+                    </form>
+                    <button class="btn btn-light text-black btn-sm" id="button">See prices</button>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <img class="pt-4 p-1 img-fluid" 
+                        src="images/uber-1.avif"
+                        alt="Uber">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class=" section2 bg-white text-black ">
+        <div class="container bg-white text-black mt-0 pt-0 ">
+            <div class="row ">
+                <div class="col-lg-6 col-sm-12 pt-5">
+                    <div>
+                        <img class="img-fluid" src="images/uber-2.avif" 
+                            width=100% height=655px>
+
+                        <br>
+                        <br>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-12 pt-5 bg-white text-black pt-5">
+                    <br>
+                    <br>
+                    <h1 class="ms-1"
+                        style="font-size: 52px; font-weight: 700; line-height:64px; font-family: system-ui; ">Drive when
+                        you want, make what you need</h1>
+                    <br>
+                    <div>
+                        <a class="text-black text-decoration-none ms-1" href="#"
+                            style="font-size: 16px; font-weight: normal;  font-family: system-ui; line-height: 24px;">
+                            Make money on your schedule with deliveries or rides—or both. You can use your own car or
+                            choose a rental through Uber.</a>
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <button class="btn btn-black text-white btn-sm ms-1">Get Started</button>
+                        <a class="text-black text-decoration-none" href="index.html"
+                            style="font-size: 16px; font-weight: normal;  font-family: system-ui; line-height: 24px;"><u
+                                style="text-decoration-color: rgb(152, 151, 151);text-underline-offset: 5px; text-align: center;"> Already
+                                have an account? Sign in</u></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="section3 bg-white text-black ">
+                <div class="container bg-white text-black">
+                    <div class="row ">
+
+                        <div class="col-lg-6 col-sm-12 pt-5 bg-white text-black  pt-5">
+                            <br>
+                            <br>
+                            <h1 class="ms-1 p-1"
+                                style="font-size: 52px; font-weight: 700; line-height:64px; font-family: system-ui; ">
+                                The Uber you know, reimagined for business</h1>
+                            <br>
+                            <div>
+                                <a class="text-black text-decoration-none ms-1 p-1" href="#"
+                                    style="font-size: 16px; font-weight: normal;  font-family: system-ui; line-height: 24px;">
+                                    Uber for Business is a platform for managing global rides and meals, and local
+                                    deliveries, for companies of any size.</a>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <button class="btn btn-black text-white btn-sm ms-1 p-1">Get Started</button>
+                                <a class="text-black text-decoration-none p-1" href="index.html"
+                                    style="font-size: 16px; font-weight: normal;  font-family: system-ui; line-height: 24px;"><u
+                                        style="text-decoration-color: rgb(152, 151, 151);text-underline-offset: 5px;">
+                                        Check out Our Solutions</u></a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-12 p-1 pt-5">
+                            <div>
+                                <img class="img-fluid" src="images/uber-3.avif"
+                                    width=100% height=655px>
+
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class=" section4 bg-white text-black ">
+                <div class="container bg-white text-black mt-0 pt-0 ">
+                    <div class="row ">
+                        <div class="col-lg-6 col-sm-12 pt-5">
+                            <div>
+                                <img class="img-fluid" src="images/uber-4.avif"
+                                    width=100% height=655px>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-12 pt-5 bg-white text-black pt-5">
+                            <br>
+                            <br>
+                            <h1 class="ms-1"
+                                style="font-size: 52px; font-weight: 700; line-height:64px; font-family: system-ui; ">
+                                Make money by renting out your car</h1>
+                            <br>
+                            <br>
+                            <br>
+                            <div>
+                                <a class="text-black text-decoration-none ms-1 " href="#"
+                                    style="font-size: 16px; font-weight: normal;  font-family: system-ui; line-height: 24px;">Connect
+                                    with thousands of drivers and earn more per week with Uber’s free fleet management
+                                    tools.</a>
+                            </div>
+                            <br>
+                            <br>
+                            <div>
+                                <button class="btn btn-black text-white btn-sm ms-1">Get Started</button>
+
+                            </div>
+                            <br>
+
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section5">
+                <br>
+                <h1 class="bg-dark-gray text-black"> Its easier in the apps</h1>
+                <div class="container bg-light">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 pt-5 bg-light text dark pt-5">
+                            <img class="img-fluid" src="images/QRcode.avif">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 pt-5 bg-light text-black pt-5">
+                            <img class="img-fluid" src="images/QRcode.avif">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+
+        <div class="footer bg-black ps-4">
+            <br>
+            <a class=" bg-black text-white mt-4 pt-4 text-decoration-none" href="#" style="font-size: 20px;">Uber</a>
+            <br>
+            <a class="bg-black text-white  text-decoration-none mt-4 " href="#">Visit Help Centre</a>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-sm-12 text-white bg-black mt-5">
+
+                        <p class=" text-white text-decoration-none" style="font-size: 20px;">Company</p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">About Us</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">our
+                                Offerings</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">NewsRoom</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">Investors</a>
+                        </p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">Blog</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">Careers</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">AI</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">GiftCard</a></p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 text-white bg-black mt-5">
+                        <p class=" text-white text-decoration-none" style="font-size: 20px;">Products</p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">Ride</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">Drive</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">Deliver</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">Eat</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">Uber for
+                                Business</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">Uber Freight</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 text-white bg-black mt-5">
+                        <p class=" text" style="font-size: 20px;">Global citizenship</p>
+                        <p><a class="text-white text-decoration-none" href="#" target="_blank"
+                                style="font-size: 14px;">Safety</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">Diversity and
+                                Inclusion</a></p>
+                        <p><a class="text-white text-decoration-none" href="#"
+                                style="font-size: 14px;">Sustainability</a></p>
+
+                    </div>
+                    <div class="col-lg-3 col-sm-12 text-white bg-black mt-5">
+                        <p class=" text" style="font-size: 20px;">Travel</p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">Reserve</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;">Airports</a></p>
+                        <p><a class="text-white text-decoration-none" href="#" style="font-size: 14px;"></a></p>
+
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <div>
+                <div class="container">
+                    <div class="row">
+                        <div class=" col-sm-6 col-lg-1 text-white"><i class="fab fa-facebook-f"></i></div>
+                        <div class=" col-sm-6 col-lg-1  text-white mt-2"><i class="fa-brands fa-x-twitter"></i></div>
+                        <div class=" col-sm-6 col-lg-1 text-white mt-2"><i class="fa-brands fa-youtube"></i></div>
+                        <div class=" col-sm-6 col-lg-1 text-white mt-2"><i class="fa-brands fa-linkedin"></i></div>
+                        <div class=" col-sm-6 col-lg-3 text-white mt-2"><i class="fa-brands fa-instagram"></i></div>
+                        <div class=" col-sm-6 col-lg-2 text-white mt-2">
+                            <i class="bi bi-globe "></i><a> English</a>
+                        </div>
+                        <div class="col-3 col-sm-6 col-lg-3 text-white">
+                            <i class='fas fa-map-marker-alt'></i><a> Thiruvananthapuram</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <div class="container mt-2">
+                    <div class="row">
+                        <div class="col-lg-2 col-sm-6 text-white mt-2">
+                            <img src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-google-4d63c31a3e.svg"
+                                width="100%" height="38px">
+                        </div>
+
+                        <div class=" col-lg-2 col-sm-6 text-white mt-2">
+                            <img  src="https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-apple-f1f919205b.svg"
+                                width="100%" height="38px">
+                        </div>
+
+                    </div>
+                </div>
+                <br>
+
+                <div class="container-fluid mt-2">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-9 text-light" style="font-size: 12px;">
+                            © 2024 Uber Technologies Inc.
+                        </div>
+
+                        <div class=" col-sm-12 col-lg-1 text-light" style="font-size: 12px;">
+                            <a> Privacy</a>
+                        </div>
+                        <div class=" col-sm-12  col-lg-1 text-light" style="font-size: 12px;">
+                            <a> Accessibility</a>
+                        </div>
+                        <div class=" col-sm-12 col-lg-1 text-light" style="font-size: 12px;">
+                            <a> Terms</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <br>
+
+        </div>
+        <br>
+
+    </div>
+
+<!-- scripting position  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
